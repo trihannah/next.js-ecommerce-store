@@ -1,0 +1,26 @@
+.product-image {
+  width: 30px; /* Adjust this value based on your desired width */
+  height: auto;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row; /* This explicitly sets the direction; default is row, but let's be explicit */
+  justify-content: space-between; /* This will separate the child elements */
+  align-items: flex-start; /* Aligns items at the top of the container */
+  height: 100vh;
+  padding: 20px; /* Add some padding to ensure elements don't touch the edges */
+}
+
+.productImageWrapper {
+  flex: 1; /* This will make the image and details take equal width, you can adjust if needed */
+  max-width: 40%; /* Adjust as needed */
+}
+
+.productDetailsWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

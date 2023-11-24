@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-image: url('/images/pexels-georgie-devlin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+header {
+  background-color: rgba(138, 48, 51, 0.8);
+}
+
+nav {
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style all links inside the nav */
+nav a {
+  margin: 4px;
+  text-decoration: none;
+  color: whitesmoke; /* Set the font color to white */
+}
+
+/* Style the links when they are hovered */
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style the links when they are active (clicked) */
+nav a:active {
+  text-decoration: underline; /* Add underline when clicked */
+}

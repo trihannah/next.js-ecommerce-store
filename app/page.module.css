@@ -1,3 +1,23 @@
+.h1 {
+  font-size: 70px;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.herosection {
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  /*border: thick double #565a5b;*/
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  padding: 100px 0; /* Adjust the padding as needed */
+  margin: 30px;
+}
+
 .main {
   display: flex;
   flex-direction: column;

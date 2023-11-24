@@ -1,0 +1,12 @@
+/* checkout.css */
+.container {
+  display: flex;
+  flex-direction: column; /* Align fields in a column */
+  gap: 10px; /* Add spacing between fields */
+}
+
+.text {
+  display: flex;
+  flex-direction: column; /* Align text fields in a column */
+  gap: 10px; /* Add spacing between text fields */
+}

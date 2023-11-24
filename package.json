@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "js-cookie": "^3.0.5",
     "next": "latest",
+    "postgres": "^3.3.5",
     "react": "latest",
     "react-dom": "latest",
     "sass": "^1.68.0",
     "sharp": "^0.32.6"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@types/js-cookie": "^3.0.4",
     "@types/react": "^18.2.23",
     "@types/react-dom": "^18.2.7",
-    "eslint-config-upleveled": "^5.0.4",
+    "eslint-config-upleveled": "^5.0.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ley": "^0.8.1",
     "stylelint": "^15.10.3",
     "stylelint-config-upleveled": "^1.0.2",
     "typescript": "^5.2.2"
